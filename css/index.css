@@ -1,0 +1,73 @@
+h2 { 
+    display: none;
+}
+
+p{ 
+    text-align: center;
+
+}
+
+aside {
+    font-size: 19px;
+    padding: 0px 0;
+    text-align: center;
+    width: 100%;
+}
+
+aside a { 
+    color: #dbb9b9;
+    display: block;
+    padding: 5px 0;
+    text-decoration: solid;
+}
+
+aside a:hover {
+    background-color: red;
+    color: yellow;
+}
+
+.hero {
+    width: 100%;
+    aspect-ratio: inherit;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    main { 
+        display: flex;
+    }
+    aside {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        justify-content: center;
+        width: 30%;
+    }
+    section { 
+        display: inline;
+        float: right;
+        width: 70%;
+    }
+    .indexbody {
+        align-self: center;
+        margin: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: black;
+        color: antiquewhite;
+        line-height: 1.6;
+    }
+}
