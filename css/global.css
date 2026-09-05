@@ -116,11 +116,9 @@ nav a.active_nav {
 
 }
 @media only screen and (max-width: 768px) {
-    #hamburger_menu{
-        display: none;
-    }
+    
     nav{
-        display: flex !important;
+        display: flex !importan
         flex-direction: row;
         gap: 40px;
         position: static;
